@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    margin: 200px;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    margin: 20px 0;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: grey;
+  }
+  .social-login {
+    margin: 20px 0;
+  }
+  .social-login a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  .forgot-password {
+    margin-top: 10px;
+  }
