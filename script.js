@@ -1,6 +1,8 @@
 function login() {
     alert("Logged In");
-    open("");
+    bugattiColour = prompt("What colours your bugatti?");
+    open(""); //Insert redirect link. 
+    alert(bugattiColour);
 }
 
 
